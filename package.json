@@ -1,0 +1,26 @@
+{
+  "name": "webdriverioproject",
+  "version": "1.0.0",
+  "description": "Automation Course with Webdriver IO.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "wdio": "wdio run ./src/config/wdio.conf.js"
+  },
+  "author": "Mitzy",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^8.38.0",
+    "@wdio/local-runner": "^8.38.0",
+    "@wdio/mocha-framework": "^8.38.0",
+    "@wdio/spec-reporter": "^8.38.0"
+  },
+  "dependencies": {
+    "c8": "^9.1.0",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "husky": "^9.0.11",
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3"
+  }
+}
