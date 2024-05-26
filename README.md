@@ -1,4 +1,4 @@
-## WebdriverIO Tesk 1
+## WebdriverIO Task 1
 # Criteria:
 1. Create 'New Paste' with the following attributes:
  * Code: "Hello from WebDriver"
